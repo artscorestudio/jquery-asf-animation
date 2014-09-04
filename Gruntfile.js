@@ -5,21 +5,21 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		
 		// Plugin name
-		pluginName: 'AsfAnimation',
+		pluginName: 'asf-animation',
 		
 		// js file name
-		jsSrcFileName: 'jquery-<%= pluginName %>.js';
-		jsMinFileName: 'jquery-<%= pluginName %>.min.js';
+		jsSrcFileName: 'jquery.<%= pluginName %>.js';
+		jsMinFileName: 'jquery.<%= pluginName %>.min.js';
 	
 		// css file name
-		cssSrcFileName: 'jquery-<%= pluginName %>.css';
-		cssMinFileName: 'jquery-<%= pluginName %>.min.css';
+		cssSrcFileName: 'jquery.<%= pluginName %>.css';
+		cssMinFileName: 'jquery.<%= pluginName %>.min.css';
 	
 		// Path to the output directory where files are created
 		distPath: 'dist',
 		
-		// Path to the jquery-asfPreload.less file
-		LessFile: 'less/jquery-<%= pluginName %>.less',
+		// Path to the less file
+		LessFile: 'less/jquery.<%= pluginName %>.less',
 		
 		// Load package.json file in config
 		pkg: grunt.file.readJSON('package.json'),
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 				// Strip javascript banner comments from source files
 				stripBanners: false
 			},
-			// Creating jquery-asfPreload.js file
+			// Creating js file
 			asfPlugin: {
 				src: [
 				  jsSrcFileName
@@ -62,8 +62,8 @@ module.exports = function(grunt) {
 		
 		// grunt-contrib-uglify minify all files defined in the configuration below.
 		uglify: {
-			// jquery-asfPreload.min.js file
-			asfpreload: {
+			// min.js file
+			asfPlugin: {
 				options: {
 					// Add banner according to the general model defined at the top of this file.
 					banner: '<%= banner %>\n',
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 		
 		// grunt-contrib-less compile all less files to CSS files defined in the configuration below
 		less: {
-			// jquery-asfPreload.css file
+			// css file
 			compileCore: {
 				options: {
 					strictMath: true

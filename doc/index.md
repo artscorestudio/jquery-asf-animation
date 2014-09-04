@@ -1,4 +1,4 @@
-jQuery Animation Plugin
-=======================
+jQuery Artscore Studio Animation Plugin
+=======================================
 
 No documentation yet !

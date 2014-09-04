@@ -1,16 +1,16 @@
-jQuery asfAnimation Plugin
-=====================================
+jQuery Artscore Studio Website Animation Plugin
+===============================================
 
 This document contains information on how to download, install, and start using an animation on your page.
 
-[![Build Status](https://travis-ci.org/artscorestudio/jquery-asfAnimation.svg?branch=master)](https://travis-ci.org/artscorestudio/jquery-asfAnimation)
+[![Build Status](https://travis-ci.org/artscorestudio/jquery-asf-animation.svg?branch=master)](https://travis-ci.org/artscorestudio/jquery-asf-animation)
 
 
 Documentation
 -------------
 The bulk of the documentation is stored in the doc/index.md file :
 
-[Read the documentation for master](https://github.com/artscorestudio/jquery-asfAnimation/blob/master/doc/index.md)
+[Read the documentation for master](https://github.com/artscorestudio/jquery-asf-animation/blob/master/doc/index.md)
 
 Installation
 ------------
@@ -45,4 +45,4 @@ jQuery asfAnimation Plugin is an [Artscore Studio](http://www.artscore-studio.fr
 
 Reporting an issue or a feature request
 ---------------------------------------
-Issues and features requests are tracked in the [GitHub issue tracker](https://github.com/artscorestudio/jquery-asfAnimation/issues).
+Issues and features requests are tracked in the [GitHub issue tracker](https://github.com/artscorestudio/jquery-asf-animation/issues).

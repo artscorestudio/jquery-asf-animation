@@ -1,12 +1,12 @@
 {
-	"name" : "artscorestudio/jquery-asfAnimation",
+	"name" : "artscorestudio/jquery-asf-animation",
 	"description" : "jQuery Plugin for display an introduction animation on Artscore Studio Website",
 	"keywords" : [
 		"jquery plugin",
 		"jQuery",
 		"animation"
 	],
-	"homepage" : "https://github.com/artscorestudio/jquery-asfAnimation",
+	"homepage" : "https://github.com/artscorestudio/jquery-asf-animation",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "Nicolas Claverie",
