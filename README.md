@@ -3,7 +3,7 @@ jQuery Artscore Studio Website Animation Plugin
 
 This document contains information on how to download, install, and start using an animation on your page.
 
-[![Build Status](https://travis-ci.org/artscorestudio/jquery-asf-animation.svg?branch=master)](https://travis-ci.org/artscorestudio/jquery-asf-animation)
+[![Build Status](https://travis-ci.org/artscorestudio/jquery-asf-animation.svg)](https://travis-ci.org/artscorestudio/jquery-asf-animation)
 
 
 Documentation
